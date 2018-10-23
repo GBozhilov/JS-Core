@@ -1,0 +1,28 @@
+document.body.innerHTML = `<div>Towns</div>
+<select id="towns" size="4">
+    <option value="1">Sofia</option>
+    <option value="3">Pleven</option>
+</select>
+
+<button id="btnDelete">Delete</button>
+
+<div>
+    <input type="text" id="newItem" />
+    <button id="btnAdd">Add</button>
+</div>`;
+
+result();
+
+var clickEvent = document.createEvent('MouseEvents');
+clickEvent.initEvent('click', true, true);
+
+$('#newItem').val('Ruse');
+$('#btnAdd')[0].dispatchEvent(clickEvent);
+expect($('#newItem').val()).to.be.empty;
+
+let towns = $('#towns').find('option');
+expect(towns.length).to.equal(3, "Add functionality is not correct.");
+
+expect(towns[0].textContent).to.contains('Sofia', "Added wrong item.");
+expect(towns[1].textContent).to.contains('Pleven', "Added wrong item.");
+expect(towns[2].textContent).to.contains('Ruse', "Added wrong item.");

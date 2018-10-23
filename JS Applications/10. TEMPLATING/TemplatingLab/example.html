@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Identifiers</title>
+    <script src="node_modules/handlebars/dist/handlebars.min.js"></script>
+</head>
+<body>
+<div id="app"></div>
+<script id="list-template" type="text/x-handlebars-template">
+    <h1>Today's fresh produce:</h1>
+    <ul>
+        {{#each items}}
+        <li>{{@key}}: {{this}}</li>
+        {{else}}
+        <li><i>(no produce today)</i></li>
+        {{/each}}
+    </ul>
+</script>
+<script id="weather-template" type="text/x-handlebars-template">
+    {{#if sunny}}
+    The sky is clear
+    {{else}}
+    The sky is overcast
+    {{/if}}
+</script>
+<script>
+    let source = document.getElementById('list-template').innerHTML;
+    let template = Handlebars.compile(source);
+    let container = document.getElementById('app');
+    let context = {
+        items: {
+            'Tomatoes': 2.80,
+            'Cucumbers': 1.20,
+            'Potatoes': 0.75,
+            'Onion': 2.70,
+            'Meat': 11.75
+        }
+    };
+    container.innerHTML = template(context);
+</script>
+</body>
+</html>

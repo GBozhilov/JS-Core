@@ -1,0 +1,24 @@
+document.body.innerHTML = `<div id="main"></div>`;
+
+let builder = result("#main");
+expect(builder.hasOwnProperty('addCard')).to.exist;
+expect(typeof builder.addCard).to.equal('function', "Couldn't find addCard() function.");
+builder.addCard("10", "D");
+builder.addCard("K", "S");
+builder.addCard("Q", "H");
+builder.addCard("4", "C");
+builder.addCard("J", "S");
+
+let cards = $('#main').find('.card');
+expect(cards.length).to.equal(5, "Didn't add correct number of cards.");
+
+expect(cards[0].textContent).to.contains('10', "Added incorrect card.");
+expect(cards[0].textContent).to.contains('\u2666', "Added incorrect card.");
+expect(cards[1].textContent).to.contains('K', "Added incorrect card.");
+expect(cards[1].textContent).to.contains('\u2660', "Added incorrect card.");
+expect(cards[2].textContent).to.contains('Q', "Added incorrect card.");
+expect(cards[2].textContent).to.contains('\u2665', "Added incorrect card.");
+expect(cards[3].textContent).to.contains('4', "Added incorrect card.");
+expect(cards[3].textContent).to.contains('\u2663', "Added incorrect card.");
+expect(cards[4].textContent).to.contains('J', "Added incorrect card.");
+expect(cards[4].textContent).to.contains('\u2660', "Added incorrect card.");

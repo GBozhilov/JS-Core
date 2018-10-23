@@ -1,0 +1,3 @@
+let mb = new result();
+
+expect(mb.toString()).to.contains('empty mailbox', "Mailbox should report that it's empty.");

@@ -1,0 +1,18 @@
+<div class="meme-details">
+    <div class="my-meme-details">
+        <a href="#/details/:{{meme._id}}" id="meme-title">{{meme.title}}</a>
+        <img src="{{meme.imageUrl}}">
+        <div class="meme-props">
+            <h2>Description</h2>
+            <p class="meme-description">{{meme.description}}</p>
+        </div>
+
+        <div class="meme-details-buttons">
+            <a class="meme-details-button" href="#/creator/:{{meme._id}}">Created by {{meme.creator}}</a>
+            {{#if meme.isAuthor}}
+                <a href="#/edit/:{{meme._id}}" class="meme-details-button">Edit</a>
+                <a href="#/delete/:{{meme._id}}" class="meme-details-button">Delete</a>
+            {{/if}}
+        </div>
+    </div>
+</div>

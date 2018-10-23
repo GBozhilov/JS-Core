@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>00. Test</title>
+</head>
+<body>
+<div id="first" class="big">First <b>DIV</b></div>
+<p id="demo">A Paragraph</p>
+<button type="button" onclick="myFunction()">Try it</button>
+
+<script>
+    function myFunction() {
+        let div = document.getElementById('first');
+        document.getElementById("demo").innerHTML = div.outerHTML;
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,7 @@
+let mb = new result();
+
+expect(mb.toString()).to.contains('empty mailbox', "Mailbox should report that it's empty.");
+
+mb.addMessage('subj', 'txt');
+
+expect(mb.toString()).to.not.contains('empty mailbox', "Mailbox should not be empty.");

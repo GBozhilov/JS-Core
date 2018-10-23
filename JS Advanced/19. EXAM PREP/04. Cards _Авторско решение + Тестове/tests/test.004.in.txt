@@ -1,0 +1,48 @@
+document.body.innerHTML = `<div id="cardycard"></div>`;
+
+let builder = result("#cardycard");
+builder.addCard("2", "D");
+builder.addCard("3", "D");
+builder.addCard("4", "D");
+builder.addCard("A", "D");
+builder.addCard("5", "D");
+builder.addCard("6", "D");
+builder.addCard("7", "C");
+
+let cards = $('#cardycard').find('.card');
+
+expect(cards[0].textContent).to.contains('2', "Did not add correctly.");
+expect(cards[0].textContent).to.contains('\u2666', "Did not add correctly.");
+expect(cards[1].textContent).to.contains('3', "Did not add correctly.");
+expect(cards[1].textContent).to.contains('\u2666', "Did not add correctly.");
+expect(cards[2].textContent).to.contains('4', "Did not add correctly.");
+expect(cards[2].textContent).to.contains('\u2666', "Did not add correctly.");
+expect(cards[3].textContent).to.contains('A', "Did not add correctly.");
+expect(cards[3].textContent).to.contains('\u2666', "Did not add correctly.");
+expect(cards[4].textContent).to.contains('5', "Did not add correctly.");
+expect(cards[4].textContent).to.contains('\u2666', "Did not add correctly.");
+expect(cards[5].textContent).to.contains('6', "Did not add correctly.");
+expect(cards[5].textContent).to.contains('\u2666', "Did not add correctly.");
+expect(cards[6].textContent).to.contains('7', "Did not add correctly.");
+expect(cards[6].textContent).to.contains('\u2663', "Did not add correctly.");
+
+var clickEvent = document.createEvent('MouseEvents');
+clickEvent.initEvent('click', true, true);
+$('#cardycard').find('.card')[1].dispatchEvent(clickEvent);
+
+cards = $('#cardycard').find('.card');
+
+expect(cards[0].textContent).to.contains('7', "Did not add correctly.");
+expect(cards[0].textContent).to.contains('\u2663', "Did not add correctly.");
+expect(cards[1].textContent).to.contains('6', "Did not add correctly.");
+expect(cards[1].textContent).to.contains('\u2666', "Did not add correctly.");
+expect(cards[2].textContent).to.contains('5', "Did not add correctly.");
+expect(cards[2].textContent).to.contains('\u2666', "Did not add correctly.");
+expect(cards[3].textContent).to.contains('A', "Did not add correctly.");
+expect(cards[3].textContent).to.contains('\u2666', "Did not add correctly.");
+expect(cards[4].textContent).to.contains('4', "Did not add correctly.");
+expect(cards[4].textContent).to.contains('\u2666', "Did not add correctly.");
+expect(cards[5].textContent).to.contains('3', "Did not add correctly.");
+expect(cards[5].textContent).to.contains('\u2666', "Did not add correctly.");
+expect(cards[6].textContent).to.contains('2', "Did not add correctly.");
+expect(cards[6].textContent).to.contains('\u2666', "Did not add correctly.");

@@ -1,0 +1,11 @@
+let mb = new result();
+
+mb.addMessage('suzzity alpha', 'content');
+mb.addMessage('suzzity beta', 'body');
+
+let report = mb.findBySubject('uzzity');
+expect(report.length).to.equal(2);
+expect(report[0].subject).to.contains('suzzity alpha');
+expect(report[0].text).to.contains('content');
+expect(report[1].subject).to.contains('suzzity beta');
+expect(report[1].text).to.contains('body');

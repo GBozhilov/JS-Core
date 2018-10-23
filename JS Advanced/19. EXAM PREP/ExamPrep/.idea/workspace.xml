@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d49e3d2f-549e-4d41-8a45-7170cde16ec2" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/01.AddRemoveTowns/add-remove-towns.html" />
+        <option value="$PROJECT_DIR$/02.ManipulateList/list-add-swap-shift-left-right.js" />
+        <option value="$PROJECT_DIR$/02.ManipulateList/listAddSwapShiftLeftRight.js" />
+        <option value="$PROJECT_DIR$/demo.js" />
+        <option value="$PROJECT_DIR$/02.ManipulateList/test/listAddSwapShiftLeftRight.js" />
+        <option value="$PROJECT_DIR$/03.MailBox/03.MailBox.js" />
+        <option value="$PROJECT_DIR$/04.Cards/cards.html" />
+        <option value="$PROJECT_DIR$/04.Cards/cards.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/node_modules/assertion-error/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/balanced-match/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/brace-expansion/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/browser-stdout/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/chai/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/check-error/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/commander/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/concat-map/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/deep-eql/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/diff/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/escape-string-regexp/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/fs.realpath/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/get-func-name/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/glob/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/growl/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/has-flag/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/he/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/inflight/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/inherits/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/jquery/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/minimatch/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/minimist/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/mkdirp/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/mocha/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/once/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/path-is-absolute/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/pathval/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/supports-color/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/type-detect/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/wrappy/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-15" />
+    <option name="width" value="1179" />
+    <option name="height" value="1104" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ExamPrep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExamPrep" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/02.ManipulateList/test" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/node_modules/mocha" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Node.js.03.MailBox.js">
+    <configuration name="03.MailBox.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="03.MailBox.js" working-dir="$PROJECT_DIR$/03.MailBox" />
+    <configuration name="demo.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="demo.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="listAddSwapShiftLeftRight.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="listAddSwapShiftLeftRight.js" working-dir="$PROJECT_DIR$/02.ManipulateList" />
+    <configuration name="UnitTesting" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory>$PROJECT_DIR$/02.ManipulateList/test</test-directory>
+      <recursive>false</recursive>
+    </configuration>
+    <list>
+      <item itemvalue="Mocha.UnitTesting" />
+      <item itemvalue="Node.js.listAddSwapShiftLeftRight.js" />
+      <item itemvalue="Node.js.demo.js" />
+      <item itemvalue="Node.js.03.MailBox.js" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.03.MailBox.js" />
+        <item itemvalue="Node.js.demo.js" />
+        <item itemvalue="Node.js.listAddSwapShiftLeftRight.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d49e3d2f-549e-4d41-8a45-7170cde16ec2" name="Default" comment="" />
+      <created>1531301207121</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1531301207121</updated>
+      <workItem from="1531301208259" duration="17725000" />
+      <workItem from="1531381669732" duration="8543000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="UnitTesting - 2018.07.11 at 18h 34m 43s.xml">
+      <configuration name="UnitTesting" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="UnitTesting - 2018.07.11 at 18h 42m 18s.xml">
+      <configuration name="UnitTesting" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="UnitTesting - 2018.07.11 at 18h 46m 02s.xml">
+      <configuration name="UnitTesting" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="UnitTesting - 2018.07.11 at 18h 47m 11s.xml">
+      <configuration name="UnitTesting" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="UnitTesting - 2018.07.11 at 18h 48m 14s.xml">
+      <configuration name="UnitTesting" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="UnitTesting - 2018.07.11 at 18h 48m 57s.xml">
+      <configuration name="UnitTesting" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="UnitTesting - 2018.07.11 at 18h 50m 37s.xml">
+      <configuration name="UnitTesting" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="UnitTesting - 2018.07.11 at 18h 51m 08s.xml">
+      <configuration name="UnitTesting" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="UnitTesting - 2018.07.11 at 18h 52m 11s.xml">
+      <configuration name="UnitTesting" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="UnitTesting - 2018.07.11 at 18h 55m 55s.xml">
+      <configuration name="UnitTesting" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="26268000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1526232" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32920355" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32920355" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/03.MailBox/03.MailBox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="n#!!block;n#constructor#0;n#MailBox#0" />
+            <element signature="n#!!block;n#messageCount#0;n#MailBox#0" />
+            <element signature="n#!!block;n#addMessage#0;n#MailBox#0" />
+            <element signature="n#!!block;n#deleteAllMessages#0;n#MailBox#0" />
+            <element signature="n#!!block;n#findBySubject#0;n#MailBox#0" />
+            <element signature="n#!!block;n#toString#0;n#MailBox#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../01. Add %2F Remove Towns_Авторско решение + Тестове/solution.js" />
+    <entry file="file://$PROJECT_DIR$/01.AddRemoveTowns/add-remove-towns.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo.js" />
+    <entry file="file://$PROJECT_DIR$/../02. Add %2F Swap %2F Shift Left %2F Right in List_Авторско решение + Тестове/solution.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1080" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02.ManipulateList/listAddSwapShiftLeftRight.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02.ManipulateList/test/listAddSwapShiftLeftRight.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3864">
+          <caret line="161" column="3" lean-forward="true" selection-start-line="3" selection-end-line="161" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03.MailBox/03.MailBox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!block;n#constructor#0;n#MailBox#0" />
+            <element signature="n#!!block;n#messageCount#0;n#MailBox#0" />
+            <element signature="n#!!block;n#addMessage#0;n#MailBox#0" />
+            <element signature="n#!!block;n#deleteAllMessages#0;n#MailBox#0" />
+            <element signature="n#!!block;n#findBySubject#0;n#MailBox#0" />
+            <element signature="n#!!block;n#toString#0;n#MailBox#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04.Cards/cards.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" column="44" selection-end-line="26" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04.Cards/cards.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="30" column="34" lean-forward="true" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

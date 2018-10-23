@@ -1,0 +1,10 @@
+expect(result.prototype.hasOwnProperty('addMessage')).to.equal(true, "Incorrect class structure.");
+expect(result.prototype.hasOwnProperty('deleteAllMessages')).to.equal(true, "Incorrect class structure.");
+expect(result.prototype.hasOwnProperty('findBySubject')).to.equal(true, "Incorrect class structure.");
+
+let mb = new result();
+
+expect(mb.messageCount).to.exist;
+expect(typeof mb.messageCount).to.not.equal('function');
+
+expect(mb.addMessage('subj', 'txt')).to.equal(mb, "Function should be chainable.");

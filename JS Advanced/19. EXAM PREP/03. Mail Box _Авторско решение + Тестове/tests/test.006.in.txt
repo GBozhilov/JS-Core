@@ -1,0 +1,10 @@
+let mb = new result();
+
+mb.addMessage('s1', 't1');
+mb.addMessage('s2', 't2');
+
+let report = mb.toString();
+expect(report).to.contains('s1');
+expect(report).to.contains('s2');
+expect(report).to.contains('t1');
+expect(report).to.contains('t2');

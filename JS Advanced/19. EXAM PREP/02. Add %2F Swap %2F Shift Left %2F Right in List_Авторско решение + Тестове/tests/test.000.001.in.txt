@@ -1,0 +1,2 @@
+//<minTestCount>6</minTestCount> - specifies the minimum amount of tests your code should have.
+let createList = function () {};

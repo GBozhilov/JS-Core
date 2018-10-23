@@ -1,0 +1,28 @@
+document.body.innerHTML = `<select id="towns" size="4">
+</select>
+
+<button id="btnDelete">Delete</button>
+
+<div>
+    <input type="text" id="newItem" />
+    <button id="btnAdd">Add</button>
+</div>`;
+
+result();
+
+var clickEvent = document.createEvent('MouseEvents');
+clickEvent.initEvent('click', true, true);
+
+$('#newItem').val('Wibble');
+$('#btnAdd')[0].dispatchEvent(clickEvent);
+expect($('#newItem').val()).to.be.empty;
+
+$('#newItem').val('Wobble');
+$('#btnAdd')[0].dispatchEvent(clickEvent);
+expect($('#newItem').val()).to.be.empty;
+
+let towns = $('#towns').find('option');
+expect(towns.length).to.equal(2, "Add functionality is not correct.");
+
+expect(towns[0].textContent).to.contains('Wibble', "Added wrong item.");
+expect(towns[1].textContent).to.contains('Wobble', "Added wrong item.");

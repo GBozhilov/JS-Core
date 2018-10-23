@@ -1,0 +1,6 @@
+let mb = new result();
+expect(mb.addMessage).to.exist;
+expect(mb.messageCount).to.exist;
+expect(mb.deleteAllMessages).to.exist;
+expect(mb.findBySubject).to.exist;
+expect(mb.toString).to.exist;

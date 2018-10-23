@@ -1,0 +1,15 @@
+{{#if user}}
+    <nav>
+        <a class="active" href="#/catalog">Home</a>
+        <a href="#/create">Create Meme</a>
+        <div id="profile">
+            <a>Welcome {{user}}</a>
+            <a href="#/myProfile">My Profile</a>
+            <a href="#/logout">Logout</a>
+        </div>
+    </nav>
+{{else}}
+    <nav>
+        <a class="active" href="#/home">Home</a>
+    </nav>
+{{/if}}

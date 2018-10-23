@@ -1,0 +1,15 @@
+document.body.innerHTML = `<div id="holder"></div>`;
+
+let builder = result("#holder");
+builder.addCard("2", "D");
+builder.addCard("J", "S");
+builder.addCard("8", "H");
+
+let cards = $('#holder').find('.card');
+
+expect(cards[0].textContent).to.contains('2', "Did not add correctly.");
+expect(cards[0].textContent).to.contains('\u2666', "Did not add correctly.");
+expect(cards[1].textContent).to.contains('J', "Did not add correctly.");
+expect(cards[1].textContent).to.contains('\u2660', "Did not add correctly.");
+expect(cards[2].textContent).to.contains('8', "Did not add correctly.");
+expect(cards[2].textContent).to.contains('\u2665', "Did not add correctly.");

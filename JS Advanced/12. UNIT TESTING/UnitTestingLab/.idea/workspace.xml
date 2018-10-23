@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="25c78042-ad67-4d88-9d92-35d23cc25ab1" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/01.SubSum.js" />
+        <option value="$PROJECT_DIR$/02.PlayingCards.js" />
+        <option value="$PROJECT_DIR$/03.DeckOfCards.js" />
+        <option value="$PROJECT_DIR$/00.Demo.js" />
+        <option value="$PROJECT_DIR$/test/00.Demo.js" />
+        <option value="$PROJECT_DIR$/04.SumNumbers.js" />
+        <option value="$PROJECT_DIR$/test/04.SumNumbers.js" />
+        <option value="$PROJECT_DIR$/05.CheckForSymmetry.js" />
+        <option value="$PROJECT_DIR$/test/05.CheckForSymmetry.js" />
+        <option value="$PROJECT_DIR$/06.RGBToHex.js" />
+        <option value="$PROJECT_DIR$/test/06.RGBToHex.js" />
+        <option value="$PROJECT_DIR$/07.AddSubtract.js" />
+        <option value="$PROJECT_DIR$/test/07.AddSubtract.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-15" />
+    <option name="width" value="1179" />
+    <option name="height" value="1104" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="UnitTestingLab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UnitTestingLab" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="$USER_HOME$/AppData/Roaming/npm/node_modules/mocha" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Software University\JS Core\JS Advanced\12. UNIT TESTING\UnitTestingLab" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Software University\JS Core\JS Advanced\12. UNIT TESTING\UnitTestingLab\test" />
+      <recent name="D:\Software University\JS Core\JS Advanced\12. UNIT TESTING\UnitTestingLab" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="UnitTesting" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory>$PROJECT_DIR$/test</test-directory>
+      <recursive>true</recursive>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="25c78042-ad67-4d88-9d92-35d23cc25ab1" name="Default" comment="" />
+      <created>1530390090879</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1530390090879</updated>
+      <workItem from="1530390092332" duration="1192000" />
+      <workItem from="1530536166916" duration="5722000" />
+      <workItem from="1530627857360" duration="4619000" />
+      <workItem from="1530686519907" duration="21482000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="createCalculator()_should_return_4_2_for_{add_5_3__subtract_1_1} - 2018.07.04 at 20h 52m 59s.xml">
+      <configuration name="createCalculator().should return 4.2 for {add 5.3; subtract 1.1}" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="createCalculator()_should_return_4_2_for_{add_5_3__subtract_1_1} - 2018.07.04 at 22h 06m 17s.xml">
+      <configuration name="createCalculator().should return 4.2 for {add 5.3; subtract 1.1}" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="UnitTesting - 2018.07.04 at 22h 06m 24s.xml">
+      <configuration name="UnitTesting" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="UnitTesting - 2018.07.04 at 22h 10m 42s.xml">
+      <configuration name="UnitTesting" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="UnitTesting - 2018.07.04 at 22h 12m 43s.xml">
+      <configuration name="UnitTesting" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="createCalculator()_should_return_NaN_for_{add__hello_} - 2018.07.04 at 22h 12m 59s.xml">
+      <configuration name="createCalculator().should return NaN for {add &quot;hello&quot;}" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="UnitTesting - 2018.07.04 at 22h 13m 54s.xml">
+      <configuration name="UnitTesting" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="createCalculator()_should_return_NaN_for_{subtract__hello_} - 2018.07.04 at 22h 14m 09s.xml">
+      <configuration name="createCalculator().should return NaN for {subtract &quot;hello&quot;}" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="createCalculator()_should_return_2_for_{add_10__add__7___add__-2___add_1} - 2018.07.04 at 22h 18m 59s.xml">
+      <configuration name="createCalculator().should return 2 for {add 10; add &quot;7&quot;; add &quot;-2&quot;; add 1}" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="createCalculator()_should_return_16_for_{add_10__add__7___add__-2___add_1} - 2018.07.04 at 22h 19m 13s.xml">
+      <configuration name="createCalculator().should return 16 for {add 10; add &quot;7&quot;; add &quot;-2&quot;; add 1}" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="33015000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11128776" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32920355" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32920355" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.11128776" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32920355" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32920355" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="4" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/00.Demo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="30" lean-forward="true" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01.SubSum.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02.PlayingCards.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03.DeckOfCards.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+          <folding>
+            <element signature="n#!!block;n#makeCard#0;n#!!block;n#printDeckOfCards#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00.Demo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11">
+          <caret selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04.SumNumbers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/04.SumNumbers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="42" />
+          <folding>
+            <element signature="e#137#679#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05.CheckForSymmetry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/05.CheckForSymmetry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06.RGBToHex.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/06.RGBToHex.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="60" lean-forward="true" selection-start-line="1" selection-start-column="60" selection-end-line="1" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07.AddSubtract.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/07.AddSubtract.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="60" column="3" lean-forward="true" selection-start-line="3" selection-end-line="60" selection-end-column="3" />
+          <folding>
+            <element signature="e#151#1109#0" />
+            <element signature="e#195#211#0" />
+            <element signature="e#271#287#0" />
+            <element signature="e#486#605#0" />
+            <element signature="e#690#820#0" />
+            <element signature="e#969#1105#0" />
+            <element signature="e#1184#1362#0" />
+            <element signature="e#1197#1375#0" />
+            <element signature="e#1326#1425#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

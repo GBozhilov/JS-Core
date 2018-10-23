@@ -1,0 +1,44 @@
+let mb = new result();
+
+mb.addMessage("meeting", "Let's meet at 17/11");
+mb.addMessage("beer", "Wanna drink beer tomorrow?");
+mb.addMessage("question", "How to solve this problem?");
+mb.addMessage("Sofia next week", "I am in Sofia next week.");
+
+expect(mb.messageCount).to.equal(4, "Incorrect number of messages stored.");
+let report = 'Messages:\n' + mb;
+expect(report).to.contains('meeting', "Wrong message subject.");
+expect(report).to.contains("Let's meet at 17/11", "Wrong message text.");
+expect(report).to.contains('beer', "Wrong message subject.");
+expect(report).to.contains("Wanna drink beer tomorrow?", "Wrong message text.");
+expect(report).to.contains('question', "Wrong message subject.");
+expect(report).to.contains("How to solve this problem?", "Wrong message text.");
+expect(report).to.contains('Sofia next week', "Wrong message subject.");
+expect(report).to.contains("I am in Sofia next week.", "Wrong message text.");
+
+expect(mb.findBySubject('rakiya').length).to.equal(0, "Didn't filter correctly.");
+let msgs = mb.findBySubject('ee');
+expect(msgs.length).to.equal(3, "Didn't filter correctly.");
+expect(msgs[0].subject).to.equal('meeting', "Wrong message structure.");
+expect(msgs[0].text).to.equal("Let's meet at 17/11", "Wrong message structure.");
+expect(msgs[1].subject).to.equal('beer', "Wrong message structure.");
+expect(msgs[1].text).to.equal("Wanna drink beer tomorrow?", "Wrong message structure.");
+expect(msgs[2].subject).to.equal('Sofia next week', "Wrong message structure.");
+expect(msgs[2].text).to.equal("I am in Sofia next week.", "Wrong message structure.");
+
+mb.deleteAllMessages();
+expect(mb.messageCount).to.equal(0, "Mailbox should be empty.");
+expect(mb.toString()).to.contains('empty mailbox', "Mailbox should be empty.");
+
+let mb2string = new result()
+    .addMessage("Subj 1", "Msg 1")
+    .addMessage("Subj 2", "Msg 2")
+    .addMessage("Subj 3", "Msg 3")
+    .toString();
+
+expect(mb2string).to.contains("Subj 1", "Wrong toString() result.");
+expect(mb2string).to.contains("Subj 2", "Wrong toString() result.");
+expect(mb2string).to.contains("Subj 3", "Wrong toString() result.");
+expect(mb2string).to.contains("Msg 1", "Wrong toString() result.");
+expect(mb2string).to.contains("Msg 2", "Wrong toString() result.");
+expect(mb2string).to.contains("Msg 3", "Wrong toString() result.");

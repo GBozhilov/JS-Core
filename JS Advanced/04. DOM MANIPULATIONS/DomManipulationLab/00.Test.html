@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>00. Test</title>
+</head>
+<body>
+<script>
+    let textBox = document.createElement('input', focusHandler);
+    textBox.type = 'text';
+    textBox.value = 'Enter your password';
+    document.body.appendChild(textBox);
+    textBox.addEventListener('focus', focusHandler);
+
+    function focusHandler(event) {
+        textBox.value = '';
+        textBox.removeEventListener('focus', focusHandler)
+    }
+</script>
+</body>
+</html>

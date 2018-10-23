@@ -1,0 +1,24 @@
+document.body.innerHTML = `<div id="content"></div>`;
+
+let builder = result("#content");
+expect(builder.hasOwnProperty('addCard')).to.exist;
+expect(typeof builder.addCard).to.equal('function', "Couldn't find addCard() function.");
+builder.addCard("10", "D");
+builder.addCard("K", "S");
+builder.addCard("Q", "H");
+builder.addCard("4", "C");
+
+var clickEvent = document.createEvent('MouseEvents');
+clickEvent.initEvent('click', true, true);
+$('#content').find('.card')[0].dispatchEvent(clickEvent);
+
+let cards = $('#content').find('.card');
+
+expect(cards[0].textContent).to.contains('4', "Did not reverse correctly.");
+expect(cards[0].textContent).to.contains('\u2663', "Did not reverse correctly.");
+expect(cards[1].textContent).to.contains('Q', "Did not reverse correctly.");
+expect(cards[1].textContent).to.contains('\u2665', "Did not reverse correctly.");
+expect(cards[2].textContent).to.contains('K', "Did not reverse correctly.");
+expect(cards[2].textContent).to.contains('\u2660', "Did not reverse correctly.");
+expect(cards[3].textContent).to.contains('10', "Did not reverse correctly.");
+expect(cards[3].textContent).to.contains('\u2666', "Did not reverse correctly.");
