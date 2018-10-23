@@ -1,2 +1,2 @@
 # JS-Core
-SofUni Course
+Sofware University Course
